@@ -101,7 +101,23 @@ a p {
 	color: aliceblue;
 }
 
-#footer {
-	display: flex;
-	justify-content: space-between;
+#footer{
+    position: absolute;
+    width: 526px;
+    height: 295px;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#footer p{
+    position: absolute;
+    z-index: 10;
+    bottom: -100%;
+    background-color: rgba(233, 179, 233, 0.614);
+    transition: 0.3s;
+}
+
+#footer:hover p{
+    bottom:0;
 }
