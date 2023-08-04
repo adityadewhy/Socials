@@ -126,6 +126,11 @@ a p {
     bottom:0;
 }
 
+/* this will make it work on phone in case user touches spiderman */
+#footer:active p{
+    bottom:0;
+}
+
 /*
 Set width for an 8 inch tablet and below. Phillip Andrews
 @media (width <= 768px) {
