@@ -126,10 +126,12 @@ a p {
     bottom:0;
 }
 
-/*Set width for an 8 inch tablet and below. Phillip Andrews*/
+/*
+Set width for an 8 inch tablet and below. Phillip Andrews
 @media (width <= 768px) {
 	#footer img {
 		width: 30%;
 		margin-top: 207px;
 	}
 }
+*/
